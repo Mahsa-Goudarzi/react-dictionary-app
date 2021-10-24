@@ -1,0 +1,15 @@
+.Meaning h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Meaning .definition {
+  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.Meaning .example {
+  opacity: 0.6;
+  font-style: italic;
+}

@@ -1,4 +1,22 @@
+.Dictionary section {
+  background: white;
+  padding: 40px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 0 rgb(228, 228, 228);
+}
+
+.Dictionary label {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Dictionary input {
+  line-height: 40px;
+}
+
 .Dictionary .btn-purple {
   color: white;
   background: #656cec;
+  line-height: 40px;
 }

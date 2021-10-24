@@ -1,3 +1,24 @@
 .App .App-header {
+  font-family: "Nothing You Could Do", "Gabriela", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   text-align: center;
+  font-size: 90px;
+  margin: 80px 0;
+}
+
+.App footer {
+  margin: 15px;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.App .container {
+  max-width: 900px;
+}
+
+@media (max-width: 767px) {
+  .App .App-header {
+    font-size: 50px;
+  }
 }
