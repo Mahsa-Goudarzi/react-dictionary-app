@@ -9,11 +9,19 @@ export default function App() {
         <Dictionary />
         <footer className="text-center">
           <a
+            href="https://github.com/Mahsa-Goudarzi/react-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source coded
+          </a>{" "}
+          by Mahsa Goudarzi,{" "}
+          <a
             href="https://frosty-knuth-2c3828.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Hosted on Netlify
+            hosted on Netlify
           </a>
         </footer>
       </div>
