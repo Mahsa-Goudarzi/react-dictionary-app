@@ -17,7 +17,7 @@ export default function App() {
           <span className="text-primary">.</span>r
           <span className="text-warning">.</span>y
         </header>
-        <Dictionary defaultWord="heaven" />
+        <Dictionary defaultWord="purple" />
         <footer className="text-center">
           <a
             href="https://github.com/Mahsa-Goudarzi/react-dictionary-app"
