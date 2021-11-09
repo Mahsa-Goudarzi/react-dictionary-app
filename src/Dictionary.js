@@ -46,7 +46,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <label>What's on you mind? Look it up!</label>
+          <label>What's on your mind? Look it up!</label>
           <form className="row g-3" onSubmit={handleSubmit}>
             <div className="col-sm-10 ">
               <input
