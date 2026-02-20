@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Photos(props) {
-  console.log(props.photos);
+  //console.log(props.photos);
   if (props.photos) {
     return (
       <div className="Photos">
@@ -12,7 +12,7 @@ export default function Photos(props) {
                 <div className="col-sm-4" key={index}>
                   <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <img
-                      src={photo.src.original}
+                      src={photo.src.landscape}
                       className="img-fluid rounded m-2 p-2 shadow"
                       alt="a pic of the word"
                     />
