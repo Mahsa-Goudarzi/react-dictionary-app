@@ -12,7 +12,7 @@ export default function Photos(props) {
                 <div className="col-sm-4" key={index}>
                   <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <img
-                      src={photo.src.tiny}
+                      src={photo.src.original}
                       className="img-fluid rounded m-2 p-2 shadow"
                       alt="a pic of the word"
                     />
